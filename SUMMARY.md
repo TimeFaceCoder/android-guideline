@@ -3,6 +3,6 @@
 * [Introduction](README.md)
 * Code Styles配置
 * [命名](ming_ming.md)
-   * 类及方法
+   * [类及方法](lei_ji_fang_fa.md)
    * 资源命名
 
