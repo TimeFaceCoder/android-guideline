@@ -9,7 +9,7 @@
 * [代码编写方式](dai_ma_bian_xie_fang_shi.md)
 * [其他](qi_ta.md)
    * [空行](kong_xing.md)
-   * 注释
+   * [注释](zhu_shi.md)
    * Log
    * if语句不能省略大括号{}
    * 减少代码嵌套层次
