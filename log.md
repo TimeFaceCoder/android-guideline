@@ -1,0 +1,1 @@
+使用log而不是System.out.println()
