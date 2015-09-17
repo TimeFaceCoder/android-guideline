@@ -1,4 +1,5 @@
-My Awesome Book
+Android开发规范
 =======
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+基于现版本时光流影Android代码框架
+做出如下开发规范
