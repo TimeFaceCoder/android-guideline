@@ -10,7 +10,7 @@
 * [其他](qi_ta.md)
    * [空行](kong_xing.md)
    * [注释](zhu_shi.md)
-   * Log
+   * [Log](log.md)
    * if语句不能省略大括号{}
    * 减少代码嵌套层次
    * Java代码每个文件理论上不能超过800行
