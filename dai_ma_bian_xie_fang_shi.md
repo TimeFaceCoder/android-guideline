@@ -20,6 +20,8 @@ public static void openForResult(Context context, CircleLocationItem selectedIte
 *如果在fragment页面上的view，则在对应的fragment.java文件中使用butterknife的OnClick批注进行处理
 *如果在adapter页面上的view，使用XML中onclick属性处理的同时，使用view.setTag(key, value)的方式把该view的扩展信息设置进去。
 例如
-```viewHolder.mDynamicContentContentTv.setTag(R.string.tag_index, index);
+```
+viewHolder.mDynamicContentContentTv.setTag(R.string.tag_index, index);
 viewHolder.mDynamicContentImageIv.setTag(R.string.tag_obj, item);
-viewHolder.mDynamicContentImageIv.setTag(R.string.tag_ex, "time");```
+viewHolder.mDynamicContentImageIv.setTag(R.string.tag_ex, "time");
+```
