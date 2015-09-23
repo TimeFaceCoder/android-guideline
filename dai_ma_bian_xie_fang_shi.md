@@ -1,3 +1,5 @@
+# 代码编写方式
+
 1. 代码中所有关联view的操作全部由butterknife的InjectView来处理（AS中使用butterknife插件来一键导入）
 2. 所有Activity必须继承相关的BaseActivity
 3. 所有Fragment必须继承相关BaseFragment
