@@ -8,3 +8,5 @@ Android开发规范
 2. JDK1.8
 3. Gradle2.X
 
+
+其他规范如下所示。
