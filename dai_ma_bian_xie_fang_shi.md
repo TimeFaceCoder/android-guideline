@@ -10,7 +10,8 @@
 
 该基础页面已经实现EventBus的注册、NetWork取消事件的监听、页面级TAG参数输出和ButterKnife的解绑操作
 
-4. 通用Adapter集成BaseListAdapter
+4. 通用Adapter集成BaseListAdapter（已不建议使用）
+5. RecyclerView的Adapter继承于BaseRecyclerAdapter
 5. 事件处理集成eventbus组件，在代码中需要实现IEventBus接口
 6. 网络请求集成sgr组件，在代码中需要实现INetWork接口
 7. 每一个Activity都需要一个open或者open4Result的静态方法，用于统一打开activity的参数，例如
