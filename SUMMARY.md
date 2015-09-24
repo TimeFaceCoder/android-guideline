@@ -7,7 +7,7 @@
    * [资源命名](zi_yuan_ming_ming.md)
 * [项目结构](xiang_mu_jie_gou.md)
 * [代码编写方式](dai_ma_bian_xie_fang_shi.md)
-* [其他](qi_ta.md)
 * [组件](zu_jian.md)
    * [第三方框架](di_san_fang_kuang_jia.md)
+* [其他](qi_ta.md)
 
