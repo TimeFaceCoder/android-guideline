@@ -2,5 +2,8 @@
 Android开发规范
 =======
 
-基于现版本时光流影Android代码框架
-做出如下开发规范
+时光流影Android客户端开发环境如下
+
+1. IDE  Android Studio
+2. JDK  JDK1.8
+3. 
