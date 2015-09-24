@@ -14,8 +14,11 @@
 5. RecyclerView的Adapter继承于BaseRecyclerAdapter
 6. 简单的列表页面可以继承于BaseRecyclerViewActivity
 5. 事件处理集成eventbus组件，在代码中需要实现IEventBus接口
-6. 网络请求集成sgr组件，在代码中需要实现INetWork接口
-7. 每一个Activity都需要一个open或者open4Result的静态方法，用于统一打开activity的参数，例如
+6. 网络请求集成svr组件，在代码中需要实现INetWork接口
+7. 每一个Activity都需要一个open或者open4Result的静态方法，用于统一打开activity的参数
+
+
+例如
 
 ```
 public static void openForResult(Context context, CircleLocationItem selectedItem, int requestCode) {
@@ -24,6 +27,17 @@ public static void openForResult(Context context, CircleLocationItem selectedIte
     ((Activity) context).startActivityForResult(intent, requestCode);
 }
 ```
+如果该页面支持扩展动画显示则在open方法最后添加int型数组
+
+```
+public static void openForResult(Context context, CircleLocationItem selectedItem,int[] location, int requestCode) {
+    Intent intent = new Intent(context, CircleLocationActivity.class);
+    intent.putExtra("selectedItem", selectedItem);
+    ((Activity) context).startActivityForResult(intent, requestCode);
+}
+```
+
+
 
 8. View的onClick处理
 
