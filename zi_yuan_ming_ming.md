@@ -14,4 +14,3 @@
 *	bg_XXXXXXXXX		背景图
 *	selector_XXXXXXXXX	selector文件
 *	shape_XXXXXXXXX	shape文件
-*	anim_XXXXXXXXX	anim文件
