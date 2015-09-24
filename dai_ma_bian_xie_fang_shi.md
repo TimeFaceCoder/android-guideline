@@ -1,7 +1,7 @@
 # 代码编写方式
 
 1. 代码中所有关联view的操作全部由butterknife的InjectView来处理（AS中使用butterknife插件来一键导入）
-2. 所有Activity必须继承相关的BaseActivity
+2. 所有Activity必须继承相关的BaseActivity或者
 3. 所有Fragment必须继承相关BaseFragment
 4. 通用Adapter集成BaseListAdapter
 5. 事件处理集成eventbus组件，在代码中需要实现IEventBus接口
