@@ -9,6 +9,5 @@
 * [代码编写方式](dai_ma_bian_xie_fang_shi.md)
 * [第三方框架](di_san_fang_kuang_jia.md)
 * [其他](qi_ta.md)
-   * [减少代码嵌套层次](jian_shao_dai_ma_qian_tao_ceng_ci.md)
    * [Java代码每个文件理论上不能超过800行](javadai_ma_mei_ge_wen_jian_li_lun_shang_bu_neng_chao_guo_800_xing.md)
 
