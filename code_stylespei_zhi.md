@@ -4,7 +4,7 @@
 
 
 
-基本代码风格由所使用IDE控制。推荐使用Android Studio来开发，并且使用默认Code Styles来配置。
+基本代码风格由所使用IDE控制。推荐使用Android Studio来开发，并且使用默认```Code Styles```来配置。
 Code styles用于处理如下问题
 1. 代码缩进
 2. 代码闭合控制
