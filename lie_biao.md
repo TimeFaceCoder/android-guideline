@@ -55,7 +55,22 @@
   使用tfptrListViewHelper.setTFPTRMode(TFPTRRecyclerViewHelper.Mode.BOTH)来控制加载方式
   
 
-FPTRRecyclerViewHelper.Mode.BOTH
+- TFPTRRecyclerViewHelper.Mode.BOTH  下拉刷新和上拉加载更多
+- TFPTRRecyclerViewHelper.Mode.START 只能下拉刷新
+- TFPTRRecyclerViewHelper.Mode.END   只能上拉加载更多
+- TFPTRRecyclerViewHelper.Mode.DISABLE 不能下拉刷新和上拉加载更多
+
+
+# 添加heeader和footer
+  由于recyclerview本身是没有addHeader和addFooter方法，所以在BaseRecyclerAdapter中封装了添加header和footer方法。使用时要注意是通过adapter调用addHeader和addFooter来添加。
+  
+  
+# 添加recyclerview滑动时的加载动画
+- 继承BaseRecyclerAdapter并实现getAnimators()方法返回Animator[]
+- RvAnimatorUtil工具类中定义了一些简单的动画，也可以在该工具中自行添加所需要的动画效果
+
+
+
 
 
     
