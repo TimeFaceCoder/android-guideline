@@ -1,7 +1,11 @@
 # 代码编写方式
 
 1. 代码中所有关联view的操作全部由butterknife的InjectView来处理（AS中使用butterknife插件来一键导入）
-2. 所有Activity必须继承相关的BaseActivity或者
+2. 所有Activity必须继承相关的BaseActivity或者BaseAppCompatActivity
+
+两个基础类已经实现EventBus的注册、NetWork取消事件的监听、页面级TAG参数输出和页面统计相关
+
+
 3. 所有Fragment必须继承相关BaseFragment
 4. 通用Adapter集成BaseListAdapter
 5. 事件处理集成eventbus组件，在代码中需要实现IEventBus接口
