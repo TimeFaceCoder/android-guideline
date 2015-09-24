@@ -38,9 +38,9 @@ bases
 	 所有AppCompatActivity的基础类，单独创建的AppCompatActivity必须集成该类，该类用于显示类似ActionBarActiity的页面，但是我们项目使用ToolBar实现ActionBar的功能
  - BaseFragment
 	 所有Fragment的基础类，单独创建的Fragment必须集成该类
- - BaseListAdapter
+ - ~~BaseListAdapter
 	 所有ListAdapter的基础类
-	 继承该类可以让你的Adapter专注编写getView方法
+	 继承该类可以让你的Adapter专注编写getView方法~~
  - BaseRecyclerAdapter
 	 所有RecyclerAdapter的基础类
 	 该类封装了header，footer和Item动画的调用方法。也可配合TFPTRRecyclerViewHelper快速实现列表刷新功能
