@@ -18,11 +18,14 @@
 
 
 ## 页面重绘问题
+
+![开启方法](https://git.gitbook.com/raw/timeface/android-guideline/master/open_overdraw.png?token=dGltZWZhY2UtYXBwOjBmOWQ4NDBiLTJhOGQtNDJhZC1hMzJmLWQxNjEzODc2NzQ2Zg%3D%3D)
+
 [详见内训资料](https://git.gitbook.com/raw/timeface/android-guideline/master/android_overdraw.pptx?token=dGltZWZhY2UtYXBwOjBmOWQ4NDBiLTJhOGQtNDJhZC1hMzJmLWQxNjEzODc2NzQ2Zg%3D%3D)
 
 
 ## GPU使用频次
-
+![开启方法](https://git.gitbook.com/raw/timeface/android-guideline/master/open_gpu_test.png?token=dGltZWZhY2UtYXBwOjBmOWQ4NDBiLTJhOGQtNDJhZC1hMzJmLWQxNjEzODc2NzQ2Zg%3D%3D)
 
 
 
