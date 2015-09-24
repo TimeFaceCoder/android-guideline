@@ -35,7 +35,7 @@ bases
  - BaseActivity
 	 所有Activity的基础类，单独创建的Activity必须继承该类
  - BaseAppCompatActivity
-	 所有AppCompatActivity的基础类，单独创建的AppCompatActivity必须集成该类
+	 所有AppCompatActivity的基础类，单独创建的AppCompatActivity必须集成该类，该类用于显示类似ActionBarActiity的页面，但是我们项目使用ToolBar实现ActionBar的功能
  - BaseFragment
 	 所有Fragment的基础类，单独创建的Fragment必须集成该类
  - BaseListAdapter
