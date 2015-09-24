@@ -17,8 +17,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </android.support.v4.widget.SwipeRefreshLayout>
-    
-
 
 
 # 初始化
@@ -51,4 +49,13 @@
                         mPtrLayout).setTFPTRMode(TFPTRRecyclerViewHelper.Mode.BOTH)
                         .tfPtrListener(ptrListener);
     }
+    
+    
+# 控制下拉刷新和上拉加载更多
+  使用tfptrListViewHelper.setTFPTRMode(TFPTRRecyclerViewHelper.Mode.BOTH)来控制加载方式
+  
+
+FPTRRecyclerViewHelper.Mode.BOTH
+
+
     
