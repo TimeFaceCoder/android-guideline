@@ -4,6 +4,7 @@
 为提升代码执行效率，在开发或者测试阶段进行如下代码审核。
 
 * 使用```SparesArray```替换使用```Map<Integer, Object>```
+* 注意for循环执行层次以及优化嵌套层次
 
 
 
@@ -17,8 +18,7 @@
 
 
 ## 页面重绘问题
-
-
+[详见内训资料](https://git.gitbook.com/raw/timeface/android-guideline/master/android_overdraw.pptx?token=dGltZWZhY2UtYXBwOjBmOWQ4NDBiLTJhOGQtNDJhZC1hMzJmLWQxNjEzODc2NzQ2Zg%3D%3D)
 
 
 ## GPU使用频次
