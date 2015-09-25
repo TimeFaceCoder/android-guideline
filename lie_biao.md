@@ -6,7 +6,7 @@
 
 
 # 布局文件
-    
+```    
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/ptr_layout"
         android:layout_width="match_parent"
@@ -16,10 +16,11 @@
             android:id="@+id/pull_refresh_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>```
 
 
 # 初始化
+
     private void initPull2Refresh() {
         // 初始化回调事件
         ptrListener = new IPTRRecyclerListener() {
@@ -42,7 +43,6 @@
                 // 列表正在向下滑
             }
         };
-
         // 初始化TFPTRRecyclerViewHelper，用来控制recyclerview的各个状态
         tfptrListViewHelper =
                 new TFPTRRecyclerViewHelper(getActivity(), mPullRefreshList,
