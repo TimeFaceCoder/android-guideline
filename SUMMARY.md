@@ -7,7 +7,7 @@
    * [资源命名](zi_yuan_ming_ming.md)
    * [方法](fang_fa.md)
 * [样式](yang_shi.md)
-   * 主题
+   * [主题](zhu_ti.md)
    * 尺寸
 * [项目结构](xiang_mu_jie_gou.md)
 * [代码编写方式](dai_ma_bian_xie_fang_shi.md)
