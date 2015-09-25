@@ -5,7 +5,7 @@
 * [命名](ming_ming.md)
    * [类](lei.md)
    * [资源命名](zi_yuan_ming_ming.md)
-   * 方法
+   * [方法](fang_fa.md)
 * [项目结构](xiang_mu_jie_gou.md)
 * [代码编写方式](dai_ma_bian_xie_fang_shi.md)
 * [组件](zu_jian.md)
