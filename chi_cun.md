@@ -4,7 +4,7 @@
 
 在时光流影Android客户端的dimen文件中存在如下内容
 
-
+```
     <dimen name="view_space_small">4dp</dimen>
     <dimen name="view_space_normal">8dp</dimen>
     <dimen name="view_space_medium">16dp</dimen>
@@ -22,7 +22,7 @@
     <dimen name="text_large">22sp</dimen>
     <dimen name="text_medium">18sp</dimen>
     <dimen name="text_normal">16sp</dimen>
-    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_small">14sp</dimen>```
     
 
 
