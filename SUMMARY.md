@@ -8,7 +8,7 @@
    * [方法](fang_fa.md)
 * [样式](yang_shi.md)
    * [主题](zhu_ti.md)
-   * 尺寸
+   * [尺寸](chi_cun.md)
 * [项目结构](xiang_mu_jie_gou.md)
 * [代码编写方式](dai_ma_bian_xie_fang_shi.md)
 * [组件](zu_jian.md)
