@@ -16,6 +16,6 @@
    * [列表](lie_biao.md)
    * [RxJava](rxjava.md)
 * [代码效率](dai_ma_xiao_lv.md)
-   * 内存优化
+* 内存优化
 * [其他](qi_ta.md)
 
