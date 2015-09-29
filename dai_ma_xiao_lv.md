@@ -6,6 +6,7 @@
 * 使用```SparesArray```替换使用```Map<Integer, Object>```
 * 注意for循环执行层次以及优化嵌套层次
 * 使用```/>```进行闭环操作
+* 多用```tools```的属性例如```tools:text``` ```tools:listitem```
 
 
 
