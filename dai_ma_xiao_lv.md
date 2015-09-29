@@ -8,9 +8,8 @@
 * 使用```/>```进行闭环操作
 * 多用```tools```的属性例如```tools:text``` ```tools:listitem```
 * 利用drawableXXX属性来做有图文的控件，特别是类似设置页面中文字在左右边有剪头的View
-* 考虑使用```ArrayMap```/```SparseArray```而不是```HashMap```等传统数据结构。对象个数的数量级最好是千以内推荐使用```ArrayMap```
+* 考虑使用```ArrayMap```/```SparseArray，SparseBoolMap，SparseIntMap，SparseLongMap，LongSparseMap```而不是```HashMap```等传统数据结构。对象个数的数量级最好是千以内推荐使用```ArrayMap```
 * 
-
 
 
 
